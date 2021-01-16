@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>trpftr</title>
+        <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Orbitron" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Orbitron" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+
+    </head>
+    <body scroll="no" style="overflow: hidden">
+
+        <div class="dblftr">
+            <div class="border" id="tborder0">
+
+                <h1 id="ftr_h">
+
+                    A Chungus and<em> The Fellas</em> Triple Feature
+
+                </h1>
+
+            </div>
+
+            <div class="border" id="bborder0">
+
+                <p id="ftr_b">
+
+                    By Sean, Andrew, Tatiana, Stefania, Julian, Emerly, Veronica, Paola, Vanessa and Angel
+
+                </p>
+
+            </div>
+
+            <div id="safari">
+
+                <button id="play_a">PLAY</button>
+
+                <h2 id="safari1">SAFARI</h2>
+
+            </div>
+
+            <div id="aliens">
+
+                <button id="play_s">PLAY</button>
+
+                <h2 id="a0">
+
+                    ALIENS!
+                </h2>
+            </div>
+
+            <div id="spaceinvaders">
+
+                <button id="play_si">PLAY</button>
+
+                <h2 id="si">
+
+                    Space<br>Invaders
+                </h2>
+            </div>
+
+        </div>
+
+        <div class="safari_game">
+            <object class="d1" data="https://www.youtube.com/embed/OQlByoPdG6c">
+            </object>
+
+            <img class="mic" src="data:image/png;base64,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">
+
+            <img id="chung" src="https://purepng.com/public/uploads/large/big-chungus-jkg.png">
+
+            <img id="loading" src="https://66.media.tumblr.com/6da90d602f7eb2d824f840a09be6d761/tumblr_oluzsimZHy1w4kgreo1_500.gif">
+
+            <p id="text1">You were chased into the Jungle by a hunter. You got lost in the jungle, frantic that the hunter was still chasing you, when he gave up a long time ago. Unfortunately you got lost in the jungle and now you have to find the way out. <strong> DOUBLE CLICK ON CHUNGUS TO BEGIN</strong></p>
+
+            <button class="st" id="one">START</button>
+
+            <div class="page_1">
+                <button class="bl" id="l1">🖜<br>Left</button>
+
+                <button class="bb" id="r1">🖝<br>Right</button>
+
+
+
+
+
+                <div class="border" id="tborder">
+
+                    <h1 id="saf">
+                        Safari
+                    </h1>
+
+                </div>
+
+                <div class="border" id="bborder">
+
+                    <p id="btm">
+                        By Julian, Sean, Tatiana, Stefania, and Andrew<br><strong>Chungus .Inc</strong>
+                    </p>
+                </div>
+
+
+
+                <div class="j">
+                    <h2 id="j"> Your journey starts here...</h2>
+                </div>
+
+            </div>
+
+            <div class="page_2">
+
+                <div id="holding_dong">
+
+                    <img id="dk_background" src="https://vignette.wikia.nocookie.net/rare/images/b/bb/KongoJungle_DKCGBC.png/revision/latest?cb=20120528232839">
+
+                    <div id="the_dong">
+
+                        <div class="dk_border" id="dk_border1">
+                        </div>
+
+                        <div style="text-align: center;">
+
+                            <img id="donkeyKong" src="http://donkeykong.nintendo.com/country-returns/mobile/img/abilities/abilities_01_donkey_kong.png">
+
+                            <p class="donkeykong_quest"> You encounter a wild Kong.<br> You had stumbled upon his stash of bananas.<br> He seems very angry and ready to fight.<br> What do you do, fight or flee?<br> </p>
+
+                            <button class="donkeykong_quest1 bb"> Fight </button>
+
+                            <button class="donkeykong_quest2"> Flee </button>
+
+                        </div>
+
+                        <div class="dk_border" id="dk_border2">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="page_3">
+
+                <div class="swamp">
+
+                    <img id="swamp" src="https://steamuserimages-a.akamaihd.net/ugc/92729171392350780/4F412644A514DCA183B718A67DAF617B842D4DAE/">
+
+                    <div id="krool_stage">
+
+                        <div class="kborder" id="kborder_1">
+                        </div>
+
+                        <div style="text-align:center;">
+
+                            <img id="krool" src="https://www.ssbwiki.com/images/thumb/b/b6/King_K._Rool_SSBU.png/250px-King_K._Rool_SSBU.png">
+
+                            <div class="krool_text">
+
+                                <p class="kr_scenario" id="kr_text"> You have now encountered a wild K. Rool.<br> You entered his swamp during his lunch hours.<br> Do you bribe him with the location of DK's banana hoard or flee?</p>
+
+                            </div>
+
+                            <button class="krool_button bb" id="flee">Flee</button>
+                            <button class="krool_button" id="bribe">Bribe</button>
+
+                        </div>
+                        <div class="kborder" id="kborder_2">
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="kr_transition">
+
+                    <p class="kr_scenario" id="bribe_text">Success!<br> With your smarts you have survived the attack.<br> You push further into the seemingly endless jungle.</p>
+
+                    <button id="proceed">Continue</button>
+
+                </div>
+
+            </div>
+
+            <div class="page_4">
+
+                <div id="funky_surfboard">
+
+                    <img id="fk_s" src="http://www.stickpng.com/assets/thumbs/58a79e7c5ad0fd0b7fdd3396.png">
+
+                    <div id="fs1_s">
+
+                        <img id="ff1" src="https://i.redd.it/tek16u3wkhqx.gif">
+
+                        <p id="ftext_s">
+
+                            <strong>Wow!</strong><br>You found one of<br>Funky Kong's surfboards!<br><br><br><br>Do you leave it be, or take it for yourself...
+                        </p>
+
+
+                        <button id="leave">Leave it</button>
+
+                        <button id="take">Take<br>it</button>
+
+                    </div>
+
+                    <div class="border" id="tborder1">
+
+
+
+                    </div>
+
+                    <div class="border" id="bborder1">
+
+
+                    </div>
+
+                </div>
+
+                <div id="fs">
+
+                    <img id="fk" src="https://www.mariowiki.com/images/thumb/1/13/Funky_Kong_Artwork_-_Donkey_Kong_Country_Tropical_Freeze.png/1200px-Funky_Kong_Artwork_-_Donkey_Kong_Country_Tropical_Freeze.png">
+
+                    <div id="fs1">
+
+                        <img id="ff" src="https://i.redd.it/tek16u3wkhqx.gif">
+
+                        <p id="ftext">
+                            Good looks kid, I've been looking for<br>this here surfboard. It's like, totally <strong>rad</strong>.
+
+                        </p>
+
+                        <p id="ftext1">
+
+                            But 'yknow what's even <strong>MORE</strong> rad?<br>Your inevitable demise <strong><em>obviously</em></strong>.
+                        </p>
+
+                        <p id="ftext2">
+
+                            <strong>This is my turf Chungus.<br>And you've been here for<br>TOO long...</strong>
+
+                        </p>
+
+                        <button id="run1">RUN<br>!!!</button>
+
+                        <button id="run2">RUN<br>!!!</button>
+
+                    </div>
+
+                    <div class="border" id="tborder2">
+
+
+
+                    </div>
+
+                    <div class="border" id="bborder2">
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="page_5">
+
+                <div id="ending">
+
+                    <div class="border" id="tborder3">
+
+
+
+                    </div>
+
+                    <div class="border" id="bborder3">
+
+
+                    </div>
+
+
+                    <p id="good">YOU MADE IT!</p>
+
+                    <div id="text_end">
+
+                        <p id="bad">A team of searchers found you and brought you to safety.You get on their helicopter and start to leave the jungle.<br><br><br><strong>Good Job Chungus, until next time!</strong></p>
+
+                    </div>
+
+                    <button id="rs">Restart</button>
+
+                    <img id="sad" src="https://i.ytimg.com/vi/ucAr2GchCTo/hqdefault.jpg">
+
+                </div>
+
+            </div>
+
+            <div class="page_6">
+
+                <button id="rs1">Restart</button>
+
+                <div class="dk_border" id="dk_border3">
+                </div>
+                <img id="pit_background" src="http://2.bp.blogspot.com/-nzm_OF0IhCI/TZYVX88DN5I/AAAAAAAAAGU/thB9DnHy-MY/s1600/pitfall.jpg">
+
+                <img id="dark_souls_died" src="https://image.spreadshirtmedia.net/image-server/v1/mp/designs/143767376,width=178,height=178,version=-1798639047/you-died-dark-souls.png">
+
+                <div class="dk_border" id="dk_border4">
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="aliens_game">
+
+            <object class="d2" data="https://www.youtube.com/embed/A6OviKdngpM">
+            </object>
+
+            <img class="mic1" src="data:image/png;base64,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">
+            <div class="game_screen">
+
+
+
+                <div class="border" id="t1border">
+
+                    <h1 id="sp">
+                        ALIENS!
+                    </h1>
+
+                </div>
+
+
+                <div class="border" id="b1border">
+
+                    <p id="spb">
+                        By Julian from<br><strong>Chungus .Inc</strong>
+                    </p>
+                </div>
+
+                <div id="text11">
+
+                    <h3 id="t1">
+                        Click on all of the aliens to win
+                    </h3>
+
+                </div>
+
+                <div id="text2">
+
+                    <h3 id="t2">
+                        Two Rounds per Play
+                    </h3>
+
+                </div>
+
+                <div id="text3">
+
+                    <button id="t3">
+                        START GAME
+                    </button>
+
+                </div>
+            </div>
+
+            <!--<div class="round_one">-->
+
+            <!--    <h2 id="r1">-->
+            <!--        ROUND 1-->
+            <!--    </h2>-->
+            <!--</div>-->
+
+            <div class="game">
+                <div class="bug_nest1">
+
+                    <div class="bug" id="q">
+                        <marquee scrollamount="25" direction="down" behavior="scroll">🛸</marquee>
+                    </div>
+                    <div class="bug" id="w">
+                        <marquee scrollamount="25" direction="down" behavior="scroll">🛸</marquee>
+                    </div>
+                    <div class="bug" id="e">
+                        <marquee scrollamount="25" direction="down" behavior="scroll">🛸</marquee>
+                    </div>
+                    <div class="bug" id="r">
+                        <marquee scrollamount="25" direction="down" behavior="scroll">🛸</marquee>
+                    </div>
+                    <div class="bug" id="t">
+                        <marquee scrollamount="25" direction="down" behavior="scroll">🛸</marquee>
+                    </div>
+                    <div class="bug" id="y">
+                        <marquee scrollamount="25" direction="down" behavior="scroll">🛸</marquee>
+                    </div>
+                </div>
+
+                <div class="round_two">
+
+                    <h2 id="r2">
+                        ROUND 1
+                    </h2>
+                </div>
+                <div class="bug_nest2">
+
+                    <div class="bug" id="a">
+                        <marquee scrollamount="35" direction="down" behavior="scroll">👾</marquee>
+                    </div>
+                    <div class="bug" id="s">
+                        <marquee scrollamount="38" direction="down" behavior="scroll">👾</marquee>
+                    </div>
+                    <div class="bug" id="d">
+                        <marquee scrollamount="41" direction="down" behavior="scroll">👾</marquee>
+                    </div>
+                    <div class="bug" id="f">
+                        <marquee scrollamount="44" direction="down" behavior="scroll">👾</marquee>
+                    </div>
+                    <div class="bug" id="g">
+                        <marquee scrollamount="47" direction="down" behavior="scroll">👾</marquee>
+                    </div>
+                    <div class="bug" id="h">
+                        <marquee scrollamount="50" direction="down" behavior="scroll">👾</marquee>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="bonus">
+
+                <h2 id="bn">
+                    THE<br> IMPOSSIBLE<br> ROUND
+                </h2>
+
+                <div class="bug" id="z">
+                    <marquee scrollamount="55" direction="down" behavior="scroll">👽</marquee>
+                </div>
+                <div class="bug" id="x">
+                    <marquee scrollamount="60" direction="down" behavior="scroll">👽</marquee>
+                </div>
+                <div class="bug" id="c">
+                    <marquee scrollamount="65" direction="down" behavior="scroll">👽</marquee>
+                </div>
+                <div class="bug" id="v">
+                    <marquee scrollamount="70" direction="down" behavior="scroll">👽</marquee>
+                </div>
+                <div class="bug" id="b">
+                    <marquee scrollamount="75" direction="down" behavior="scroll">👽</marquee>
+                </div>
+                <div class="bug" id="n">
+                    <marquee scrollamount="80" direction="down" behavior="scroll">👽</marquee>
+                </div>
+
+            </div>
+
+            <div class="restart">
+
+                <h2 id="yw">
+                    YOU WIN
+                </h2>
+
+                <button id="rs2">
+                    PLAY AGAIN
+                </button>
+            </div>
+        </div>
+        <div class="spaceinvaders_game">
+
+            <object class="d2" data="https://www.youtube.com/embed/ZwGeWupj0cI">
+            </object>
+
+            <img class="mic2" src="data:image/png;base64,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">
+
+            <div class="main">
+                <img class="title" src="http://www.classicgaming.cc/classics/space-invaders/images/space-invaders-logo.png">
+            </div>
+            <div class="bugs">
+                <img id="bugOne" class="picBug" src="https://ya-webdesign.com/images/vector-alien-space-invaders-5.png">
+                <img id="bugTwo" class="picBug" src="https://ya-webdesign.com/images/vector-alien-space-invaders-5.png">
+                <img id="bugThree" class="picBug" src="https://ya-webdesign.com/images/vector-alien-space-invaders-5.png">
+                <img id="bugFour" class="picBug" src="https://ya-webdesign.com/images/vector-alien-space-invaders-5.png">
+                <img id="bugFive" class="picBug" src="https://ya-webdesign.com/images/vector-alien-space-invaders-5.png">
+                <img id="bugSix" class="picBug" src="https://ya-webdesign.com/images/vector-alien-space-invaders-5.png">
+                <img id="bugSeven" class="picBug" src="https://ya-webdesign.com/images/vector-alien-space-invaders-5.png">
+                <img id="bugEight" class="picBug" src="https://ya-webdesign.com/images/vector-alien-space-invaders-5.png">
+            </div>
+            <div class="bugsTwo">
+                <img id="bugNine" class="picBug" src="https://ya-webdesign.com/images/vector-alien-space-invaders-5.png">
+                <img id="bugTen" class="picBug" src="https://ya-webdesign.com/images/vector-alien-space-invaders-5.png">
+                <img id="bugEleven" class="picBug" src="https://ya-webdesign.com/images/vector-alien-space-invaders-5.png">
+                <img id="bugTwelve" class="picBug" src="https://ya-webdesign.com/images/vector-alien-space-invaders-5.png">
+                <img id="bugThirteen" class="picBug" src="https://ya-webdesign.com/images/vector-alien-space-invaders-5.png">
+                <img id="bugFourteen" class="picBug" src="https://ya-webdesign.com/images/vector-alien-space-invaders-5.png">
+                <img id="bugFifteen" class="picBug" src="https://ya-webdesign.com/images/vector-alien-space-invaders-5.png">
+                <img id="bugSixteen" class="picBug" src="https://ya-webdesign.com/images/vector-alien-space-invaders-5.png">
+            </div>
+            <div class="pellets">
+                <marquee scrollamount="25" direction="down"><img class="dot" src="https://content.mycutegraphics.com/backgrounds/bpw/bpw31.gif"></marquee>
+                <marquee scrollamount="25" direction="down"><img class="dot" src="https://content.mycutegraphics.com/backgrounds/bpw/bpw31.gif"></marquee>
+                <marquee scrollamount="25" direction="down"><img class="dot" src="https://content.mycutegraphics.com/backgrounds/bpw/bpw31.gif"></marquee>
+                <marquee scrollamount="25" direction="down"><img class="dot" src="https://content.mycutegraphics.com/backgrounds/bpw/bpw31.gif"></marquee>
+                <marquee scrollamount="25" direction="down"><img class="dot" src="https://content.mycutegraphics.com/backgrounds/bpw/bpw31.gif"></marquee>
+                <marquee scrollamount="25" direction="down"><img class="dot" src="https://content.mycutegraphics.com/backgrounds/bpw/bpw31.gif"></marquee>
+                <marquee scrollamount="25" direction="down"><img class="dot" src="https://content.mycutegraphics.com/backgrounds/bpw/bpw31.gif"></marquee>
+                <marquee scrollamount="25" direction="down"><img class="dot" src="https://content.mycutegraphics.com/backgrounds/bpw/bpw31.gif"></marquee>
+                <marquee scrollamount="25" direction="down"><img class="dot" src="https://content.mycutegraphics.com/backgrounds/bpw/bpw31.gif"></marquee>
+            </div>
+            <div class="cursor">
+                <img class="ship" src="https://cdn0.iconfinder.com/data/icons/video-games-yellow/60/050_-_Space_Invaders-512.png">
+            </div>
+            <p class="gameover">GAME OVER!</p>
+            <button id="fb">PLAY AGAIN</button>
+
+        </div>
+
+    </body>
+</html>
