@@ -1,0 +1,1204 @@
+.border {
+    display: block;
+    background-color: black;
+    color: white;
+
+}
+
+body {
+
+    min-height: 1000px;
+
+}
+
+.dblftr {
+    display: flex;
+    height: 1000px;
+    width: 100%;
+}
+
+#safari1 {
+    position: absolute;
+    top: 25%;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    left: 11.5%;
+    font-size: 50px;
+    border-bottom: 5px solid white;
+}
+
+#safari {
+    background-image: url(https://data.whicdn.com/images/279891249/original.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 33%;
+}
+
+#a0 {
+    animation: glow 1s ease-in-out infinite alternate;
+    font-family: 'Monoton';
+    position: absolute;
+    font-size: 50px;
+    top: 25%;
+    color: white;
+    left: 43.65%;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #DF16F2, 0 0 40px #DF16F2, 0 0 50px #DF16F2, 0 0 60px #DF16F2, 0 0 70px #DF16F2, 0 0 80px #DF16F2;
+    }
+}
+
+#aliens {
+
+    background-image: url(https://i.gifer.com/FG3y.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100%;
+    width: 33%;
+
+}
+
+#spaceinvaders {
+
+    background-image: url("http://cdn.spacetelescope.org/archives/images/screen/heic1112d.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100%;
+    width: 33%;
+}
+
+#si {
+    position: absolute;
+    top: 18%;
+    color: yellow;
+    font-family: 'Bungee', cursive;
+    left: 75%;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+#play_si {
+    background-color: transparent;
+    position: absolute;
+    top: 55%;
+    left: 77%;
+    border: dotted yellow 15px;
+    font-size: 47px;
+    color: yellow;
+    font-family: 'Bungee', cursive;
+    height: 140px;
+    text-align: center;
+    width: 200px;
+
+}
+
+#bborder0 {
+    position: absolute;
+    bottom: 0px;
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    height: 108px;
+}
+
+
+#tborder0 {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+    height: 108px;
+}
+
+#ftr_h {
+    font-size: 50px;
+}
+
+#play_a {
+    background-color: transparent;
+    position: absolute;
+    top: 55%;
+    left: 13%;
+    border: 5px white double;
+    font-size: 40px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    width: 140px;
+
+}
+
+#play_s {
+    background-color: transparent;
+    position: absolute;
+    top: 55%;
+    left: 45.9%;
+    border: transparent;
+    font-size: 40px;
+    color: white;
+    animation: glow 1s ease-in-out infinite alternate;
+    font-family: 'Monoton';
+    width: 140px;
+
+}
+
+.page_1 {
+    min-height: 1000px;
+}
+
+
+.mic {
+    width: 55px;
+    position: absolute;
+    top: 21%;
+    height: 55px;
+
+}
+
+.d1 {
+    width: 50px;
+    position: absolute;
+    top: 25%;
+    height: 50px;
+}
+
+
+
+.j {
+    display: flex;
+    justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+#j {
+    position: absolute;
+    top: 35%;
+    color: white;
+    display: none;
+}
+
+#l1 {
+    position: absolute;
+    left: 25%;
+    display: none;
+    background-color: transparent;
+    top: 45%;
+    border: 5px white double;
+    font-size: 40px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    width: 220px;
+}
+
+#r1 {
+    background-color: transparent;
+    position: absolute;
+    top: 45%;
+    border: 5px white double;
+    font-size: 40px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    width: 220px;
+    left: 65%;
+    display: none;
+}
+
+
+
+.border {
+    display: block;
+    background-color: black;
+    color: white;
+
+}
+
+
+#bborder {
+    position: absolute;
+    bottom: 0px;
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    height: 108px;
+}
+
+
+#tborder {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+    height: 108px;
+}
+
+#saf {
+    font-size: 99px;
+    letter-spacing: 130px;
+    position: relative;
+    left: 100px;
+    font-family: 'Orbitron', sans-serif;
+    margin: 10px;
+    display: none;
+}
+
+#btm {
+    display: none;
+
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+}
+
+#al {
+    height: 100px;
+    width: 100px;
+
+}
+
+#one {
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+
+
+    border: 5px white double;
+    font-size: 40px;
+    color: white;
+
+    width: 220px;
+}
+
+#chung {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+#loading {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 5%;
+    display: none;
+}
+
+#text1 {
+    display: none;
+    font-family: 'Press Start 2P', cursive;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.page_2 {
+    display: none;
+    min-height: 1000px;
+}
+
+
+.donkeykong_quest1 {
+    background-color: transparent;
+    position: absolute;
+    top: 45%;
+    border: 5px white double;
+    font-size: 40px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    width: 140px;
+}
+
+.donkeykong_quest2 {
+    background-color: transparent;
+    position: absolute;
+    top: 45%;
+    border: 5px white double;
+    font-size: 40px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    width: 140px;
+}
+
+#the_dong {
+    display: block;
+}
+
+#donkeyKong {
+    position: absolute;
+    height: 50%;
+    top: 15%;
+    right: 25%;
+    left: 33%;
+    bottom: 25%;
+}
+
+.donkeykong_quest {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    background-color: black;
+    font-weight: 900;
+    position: absolute;
+    top: 65%;
+    right: 30%;
+    left: 30%;
+}
+
+.donkeykong_quest1 {
+    position: absolute;
+    top: 90%;
+    right: 10%;
+    left: 80%;
+}
+
+.donkeykong_quest2 {
+    position: absolute;
+    top: 90%;
+    right: 80%;
+    left: 10%;
+}
+
+.dk_border {
+    display: block;
+    background-color: black;
+    color: white;
+
+}
+
+
+#dk_border1 {
+    position: absolute;
+    bottom: 0px;
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    height: 108px;
+}
+
+#dk_border2 {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 108px;
+}
+
+
+
+#dk_background {
+    height: 1000px;
+    width: 100%;
+}
+
+.page_3 {
+    display: none;
+}
+
+
+.krool_button {
+    background-color: transparent;
+    position: absolute;
+    top: 45%;
+    border: 5px white double;
+    font-size: 40px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    width: 140px;
+}
+
+#proceed {
+    background-color: transparent;
+    position: absolute;
+    top: 90%;
+    left: 43%;
+    border: 5px white double;
+    font-size: 40px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    width: 215px;
+    display: none;
+}
+
+.kborder {
+    display: block;
+    background-color: black;
+    color: white;
+
+}
+
+#swamp {
+    height: 100%;
+    width: 100%;
+}
+
+#krool_stage {
+    display: block;
+}
+
+#kborder_1 {
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    height: 108px;
+}
+
+#kborder_2 {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 108px;
+}
+
+#krool {
+    position: absolute;
+    height: 50%;
+    top: 15%;
+    right: 25%;
+    left: 38%;
+    bottom: 25%;
+}
+
+.kr_scenario {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    background-color: black;
+    font-weight: 900;
+    position: absolute;
+    top: 65%;
+    right: 30%;
+    left: 30%;
+}
+
+#flee {
+    position: absolute;
+    top: 90%;
+    right: 10%;
+    left: 80%;
+}
+
+#bribe {
+    position: absolute;
+    top: 90%;
+    right: 80%;
+    left: 10%;
+}
+
+#bribe_text {
+    display: none;
+    text-align: center;
+}
+
+.page_4 {
+    display: none;
+    min-height: 1000px;
+}
+
+.border {
+    display: block;
+    background-color: black;
+    color: white;
+
+}
+
+
+#bborder2 {
+    position: absolute;
+    bottom: 0px;
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    height: 108px;
+}
+
+
+#tborder2 {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 108px;
+}
+
+#fk_s {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    width: 30%;
+    height: 30%;
+    box-shadow: 1px 1px 15px 5px gold;
+}
+
+#ff1 {
+    height: 100%;
+    width: 100%;
+}
+
+
+#ftext_s {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    position: absolute;
+    font-size: 25px;
+    top: 50%;
+}
+
+
+
+#fs1_s {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#run1 {
+    background-color: transparent;
+
+    border: 5px red double;
+    font-size: 40px;
+    color: red;
+    height: 120px;
+    font-family: 'Orbitron', sans-serif;
+    width: 200px;
+    position: absolute;
+    top: 70%;
+    left: 110px;
+}
+
+#run2 {
+    background-color: transparent;
+    position: absolute;
+    top: 70%;
+    right: 110px;
+
+    border: 5px red double;
+    font-size: 40px;
+    color: red;
+    height: 120px;
+    font-family: 'Orbitron', sans-serif;
+    width: 200px;
+
+}
+
+#leave {
+
+    background-color: transparent;
+    position: absolute;
+    top: 45%;
+    right: 100px;
+    border: 5px white double;
+    font-size: 40px;
+    color: white;
+    height: 120px;
+    font-family: 'Orbitron', sans-serif;
+    width: 200px;
+}
+
+#take {
+
+
+    background-color: transparent;
+    position: absolute;
+    left: 100px;
+    top: 45%;
+    border: 5px white double;
+    font-size: 40px;
+    color: white;
+    height: 120px;
+    font-family: 'Orbitron', sans-serif;
+    width: 200px;
+}
+
+#fk {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+#ff {
+    height: 100%;
+    width: 100%;
+}
+
+#ftext {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    position: absolute;
+    font-size: 25px;
+    left: 25px;
+    top: 12%;
+}
+
+#ftext1 {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    position: absolute;
+    font-size: 25px;
+    left: 25px;
+    top: 32%;
+}
+
+#ftext2 {
+    text-align: center;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    position: absolute;
+    font-size: 45px;
+    right: 30px;
+    top: 14%;
+}
+
+#fs1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+#bborder1 {
+    position: absolute;
+    bottom: 0px;
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    height: 108px;
+}
+
+
+#tborder1 {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 108px;
+}
+
+#fs {
+    display: none;
+}
+
+.page_6 {
+    min-height: 1000px;
+    height: 100%;
+    display: none;
+}
+
+.page_5 {
+    max-height: 1000px;
+    height: 1000px;
+    display: none;
+}
+
+#ending {
+    background-image: url("https://www.cairnsholidayspecialists.com.au/shared_resources/media/Aqx9xtWZ388fBJ_700x467.jpg");
+    background-size: cover;
+    max-height: 1000px;
+    height: 100%;
+}
+
+#end {
+    height: 100%;
+    width: 100%;
+}
+
+#good {
+    font-family: 'VT323', monospace;
+    font-size: 70px;
+    position: absolute;
+    color: white;
+    top: -5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#bad {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#rs {
+    background-color: transparent;
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    border: 5px white double;
+    font-size: 40px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    width: 190px;
+}
+
+#rs1 {
+    background-color: transparent;
+    position: absolute;
+    top: 80%;
+    left: 42%;
+    border: 5px white double;
+    font-size: 40px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    width: 190px;
+}
+
+#sad {
+    display: none;
+    position: absolute;
+    height: 50%;
+    top: 20%;
+    left: 10px;
+    bottom: 25%;
+    box-shadow: 3px 3px 17px 7px white;
+    width: 400px;
+}
+
+#bborder3 {
+    position: absolute;
+    bottom: 0px;
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    height: 108px;
+}
+
+
+#tborder3 {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 108px;
+}
+
+.border {
+    display: block;
+    background-color: black;
+    color: white;
+
+}
+
+#text_end {
+    text-align: center;
+}
+
+.dk_border {
+    display: block;
+    background-color: black;
+    color: white;
+}
+
+
+#dk_border3 {
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    height: 108px;
+}
+
+#dk_border4 {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 108px;
+}
+
+#dark_souls_died {
+    position: absolute;
+    height: 500px;
+    top: -10%;
+    right: 38%;
+}
+
+
+
+#pit_background {
+    height: 100%;
+    width: 100%;
+}
+
+.safari_game {
+    display: none;
+    height: 100px;
+    min-height: 1000px;
+    background-image: url("https://data.whicdn.com/images/279891249/original.gif");
+
+    background-size: cover;
+}
+
+.game {
+    display: none;
+}
+
+.mic1 {
+    width: 55px;
+    position: absolute;
+    top: 21%;
+    height: 55px;
+
+}
+
+.d2 {
+    width: 50px;
+    position: absolute;
+    top: 25%;
+    height: 50px;
+}
+
+#sp {
+    display: none;
+}
+
+#spb {
+    display: none;
+}
+
+#text11 {
+    height: 100%;
+    min-height: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+#text2 {
+    height: 100%;
+    min-height: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+#text3 {
+    height: 100%;
+    min-height: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+#t1 {
+    display: none;
+    position: absolute;
+    top: 35%;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#t2 {
+    display: none;
+    position: absolute;
+    top: 45%;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#t3 {
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 65%;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    display: none;
+}
+
+#t3 {
+    animation: blinkingText 1.10s infinite;
+}
+
+@keyframes blinkingText {
+    50% {
+        color: white;
+    }
+
+    50% {
+        color: transparent;
+    }
+
+    50% {
+        color: transparent;
+    }
+
+    50% {
+        color: transparent;
+    }
+
+    100% {
+        color: white;
+    }
+}
+
+
+
+.border {
+    display: block;
+    background-color: black;
+    color: white;
+
+}
+
+#b1border {
+    position: absolute;
+    bottom: 0px;
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    height: 108px;
+}
+
+
+#t1border {
+    animation: glow 1s ease-in-out infinite alternate;
+    font-family: 'Monoton';
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    height: 108px;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #DF16F2, 0 0 40px #DF16F2, 0 0 50px #DF16F2, 0 0 60px #DF16F2, 0 0 70px #DF16F2, 0 0 80px #DF16F2;
+    }
+}
+
+.bug_nest1 {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+
+}
+
+.bug_nest2 {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+
+}
+
+marquee {
+    height: 100%;
+    min-height: 1000px;
+    font-size: 50px;
+}
+
+.restart {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+#rs2 {
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 65%;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    display: none;
+}
+
+#yw {
+    position: absolute;
+    top: 0%;
+    color: white;
+    animation: blinkingText 1.10s infinite;
+    animation: glow 1s ease-in-out infinite alternate;
+    font-family: 'Monoton';
+    font-size: 50px;
+    display: none;
+}
+
+#rs {
+    animation: blinkingText 1.10s infinite;
+
+    position: absolute;
+    top: 60%;
+
+}
+
+/*.round_one{*/
+/*    display:flex;*/
+/*    justify-content: center;*/
+/*    height: 100%;*/
+/*}*/
+
+/*#r1{*/
+
+/*    color:white;*/
+/*     animation: glow 1s ease-in-out infinite alternate;*/
+/*    font-family: 'Monoton';*/
+/*    position:absolute;*/
+/*    top: 50%;*/
+/*    }*/
+
+.bonus {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 100%;
+}
+
+#bn {
+    color: white;
+    animation: glow 1s ease-in-out infinite alternate;
+    font-family: 'Monoton';
+    top: 0%;
+    left: 0%;
+}
+
+.aliens_game {
+    display: none;
+    background-image: url("https://i.gifer.com/FG3y.gif");
+    height: 1000px;
+    min-height: 1000px;
+}
+
+.spaceinvaders_game {
+    display: none;
+    background-image: url("http://cdn.spacetelescope.org/archives/images/screen/heic1112d.jpg");
+    height: 1000px;
+    cursor: none;
+
+    min-height: 768px;
+}
+
+.main {
+    text-align: center;
+}
+
+.cursor {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+}
+
+.ship {
+    height: 100px;
+}
+
+.bugs {
+    display: flex;
+}
+
+.bugsTwo {
+    display: flex;
+}
+
+
+
+.picBug {
+    height: 150px;
+    margin: 10px;
+}
+
+.dot {
+    height: 50px;
+    width: 50px;
+    margin: 50px;
+}
+
+.pellets {
+    display: flex;
+
+}
+
+.gameover {
+    display: none;
+    top: 10%;
+    left: 42%;
+    position: absolute;
+    text-align: center;
+    color: yellow;
+    font-size: 50px;
+    font-family: 'Bungee', cursive;
+    text-decoration: underline white;
+}
+
+#fb {
+    display: none;
+    font-family: 'Bungee', cursive;
+    top: 45%;
+    left: 47%;
+    position: absolute;
+}
+
+.mic2 {
+    width: 55px;
+    position: absolute;
+    top: 21%;
+    height: 55px;
+
+}
+
+.d2 {
+    width: 50px;
+    position: absolute;
+    top: 25%;
+    height: 50px;
+}
